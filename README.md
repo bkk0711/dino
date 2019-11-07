@@ -15,7 +15,10 @@
   * Go to Console tab. This is where we will enter the commands to tweak the game.
 ## Tweaking Speed
   *Type the following command in Console and press enter. You can use any other speed in place of 1000.*
-     `Runner.instance_.setSpeed(1000)`
+ * When you want to run:
+  `Runner.instance_.setSpeed(1000)
+* When you want to stop:
+ `Runner.instance_.setSpeed(10)
 ## Immortality
  * After every command press enter. All the commands are case-sensitive.
  * We store the original game over function in a variable:
