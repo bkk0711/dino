@@ -38,3 +38,10 @@
     `Runner.instance_.playingIntro = false;`
 ## Auto Play 
    **Paste all code from the file auto_dino.js**
+## jump high
+`Runner.instance_.tRex.setJumpVelocity(100)`
+## move right or left
+   **Paste all code from the file move.js**
+## point of speed
+  * change 1 to any number the smaller number the faster point of speed: 
+`Runner.instance_.msPerFrame = 1`
